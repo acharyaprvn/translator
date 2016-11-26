@@ -1,0 +1,62 @@
+html,
+body {
+    height: 100%;
+	background: url('../images/pattern1.png');
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -10px;
+}
+/* Set the fixed height of the footer here */
+#push
+.footer {
+    height: 10px;
+}
+
+
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+    .footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+footer {
+border-top: 0px solid #2F4F4F;
+	background-color: #333;
+	padding-top: 20px;
+    color: #fff;
+	padding-bottom: 10px;
+	
+}
+footer a{
+	color: inherit; 
+}
+.navbar{
+      margin-bottom: 0;
+      background-color: #333;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+	  font-family: Montserrat, sans-serif;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+	  border-bottom: 0px solid #2F4F4F;
+	  padding-bottom: 30px;
+  }
+  
+ .col-sm-6{
+ padding-top: 30px;
+ }
+ 
